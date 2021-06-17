@@ -6,15 +6,31 @@ function Release-Ref ($ref) {
 }
 # -----------------------------------------------------
 $objExcel = new-object -comobject excel.application 
+
+# Visualização da planilha / Caso Não queira ver só trocar de $True Para $False
 $objExcel.Visible = $True 
-$objWorkbook = $objExcel.Workbooks.Open("C:\Users\william.silva\Documents\teste.xlsx")
+
+# Selecionado Via path(Caminho) a planilha de Base
+$objWorkbook = $objExcel.Workbooks.Open("C:\Users\william.silva\Downloads\IMPORTAÇÃO.xlsx")
+
+# Selecionando a Primeira Aba da Planilha
 $objWorksheet = $objWorkbook.Worksheets.Item(1)
-$intRow = 1
+
+# Selecionando a Segunda Linha / Por Qual linha Começar o Loop
+$intRow = 2
 Do {
+        # Pegando o valor da primeira coluna Como Nome do arquivo
         $name = $objWorksheet.Cells.Item($intRow, 1).Value()
+        
+        # Pegando o valor da segunda coluna Como URL de download
         $uri = $objWorksheet.Cells.Item($intRow, 2).Value()
+        
+        # Se tiver valor (URL) Fazer requisição Curl
         if ($uri){
-        curl $uri -OutFile C:\Users\$env:USERNAME\Downloads\Res\$name.pdf -ErrorAction SilentlyContinue
+        Write-Output ($name)
+        
+        # Criar a pasta "\Downloads\Res" ou Trocar o caminho nessa linha de destino do arquivo baixado. 
+        curl $uri -OutFile "C:\Users\$($env:USERNAME)\Downloads\Res\$($name)-1.pdf" -ErrorAction SilentlyContinue
         }
         $intRow++
 }
