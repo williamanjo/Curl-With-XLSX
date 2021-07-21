@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUrl-With-Xlsx", "CUrl-With-Xlsx\CUrl-With-Xlsx.csproj", "{2F6F274D-58D8-4377-A264-E22F265199C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F6F274D-58D8-4377-A264-E22F265199C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6F274D-58D8-4377-A264-E22F265199C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6F274D-58D8-4377-A264-E22F265199C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6F274D-58D8-4377-A264-E22F265199C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE8835A-9244-4B71-AE8B-762782114AF2}
+	EndGlobalSection
+EndGlobal

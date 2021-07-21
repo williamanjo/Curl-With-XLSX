@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\william.silva\\source\\repos\\CUrl-With-Xlsx\\CUrl-With-Xlsx\\CUrl-With-Xlsx.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\william.silva\\source\\repos\\CUrl-With-Xlsx\\CUrl-With-Xlsx\\CUrl-With-Xlsx.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\william.silva\\source\\repos\\CUrl-With-Xlsx\\CUrl-With-Xlsx\\CUrl-With-Xlsx.csproj",
+        "projectName": "CUrl-With-Xlsx",
+        "projectPath": "C:\\Users\\william.silva\\source\\repos\\CUrl-With-Xlsx\\CUrl-With-Xlsx\\CUrl-With-Xlsx.csproj",
+        "packagesPath": "C:\\Users\\william.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\william.silva\\source\\repos\\CUrl-With-Xlsx\\CUrl-With-Xlsx\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\william.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "WindowsAPICodePack": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "WindowsAPICodePack-Core": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
